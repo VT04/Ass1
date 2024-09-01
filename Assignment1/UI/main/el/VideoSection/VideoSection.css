@@ -1,0 +1,56 @@
+.videosection-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(255, 0, 0);
+    padding: 20px;
+}
+
+.below-videosection {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 0, 0);
+}
+
+.videosection-buttons {
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 0, 0);
+    justify-content: space-around;
+}
+
+.videosection-buttons button {
+    width: 3000px;
+}
+
+.uploaded-title {
+    margin-top: 50px;
+    color: rgb(255, 0, 0);
+}
+
+.uploaded-list {
+    gap: 10px;
+}
+
+.uploaded-card {
+    display: flex;
+    align-items: center;
+    border-radius: 0px;
+    gap: 20px;
+}
+
+.x-button {
+    margin-left: 8px;
+    background-color: transparent;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.uploaded-card p {
+    margin: 0;
+    flex-grow: 1;
+    color: rgb(255, 0, 0);
+}

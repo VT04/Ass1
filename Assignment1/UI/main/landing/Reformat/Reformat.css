@@ -1,0 +1,36 @@
+.reformat-bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    background: none;
+    background-size: cover;
+}
+
+
+.video-wrapper {
+    align-self: center;
+    width: auto;
+    height: auto;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 0, 0);
+    gap: 20px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.video-thumbnail {
+    width: 500px;
+    height: auto;
+}
+
+.video-details {
+    display: flex;
+    font-size: 25px;
+}

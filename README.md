@@ -7,11 +7,8 @@ Overview
 - **Name:** Vu Tran
 - **Student number:** n11365978
 - **Application name:** Video Transcoding Web App
-- **Two line description:** Web application that allows users to upload videos, transcode into different formats and download. The app utilizes Docker for containerized deployment and integrates with AWS ECR for image management, and EC2 instance.
+- **Two line description:** Web application that allows users to upload videos, convert into different formats and download. Using Docker for containing  and integrates with AWS for managing images.
 
-Video Demonstration
-------------------------------------------------
-[View the video here](https://youtu.be/NhyooAm1Kts)
 
 
 
@@ -33,7 +30,7 @@ Core criteria
 
 ### User login functionality
 
-- **One line description:** Registration and Login. Using JSON web token and storing it in cookie
+- **One line description:** Registration and Login by using JSON web token then store user's data in cookie
 - **Video timestamp:** 1:55
 - **Relevant files:**
   - /server/routes/userRoute.js 6, 9
@@ -41,12 +38,12 @@ Core criteria
 
 ### User dependent functionality
 
-- **One line description:** Users can only view their own videos uploaded
+- **One line description:** Each users can only view their videos
 - **Video timestamp:** 3:41
 - **Relevant files:**
-  - /server/routes/videoRoute.js 9
-  - /server/controller/videoController.js 95
-  - /server/models/video.js 15
+  - /server/routes/videoRoute.js 
+  - /server/man/man.js 
+  - /server/ends/video.js 
 
 ### Web client
 

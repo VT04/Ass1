@@ -22,7 +22,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --ng serve --host=0.0.0.0 --configuration=dev --disableHostCheck=true",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -4,8 +4,8 @@ Assignment 1 - Web Server - Response to Criteria
 Overview
 ------------------------------------------------
 
-- **Name:** Dennis Chen 
-- **Student number:** n12150801
+- **Name:** Vu Tran
+- **Student number:** n11365978
 - **Application name:** Video Transcoding Web App
 - **Two line description:** Web application that allows users to upload videos, transcode into different formats and download. The app utilizes Docker for containerized deployment and integrates with AWS ECR for image management, and EC2 instance.
 
@@ -33,7 +33,7 @@ Core criteria
 
 ### User login functionality
 
-- **One line description:** Registration and Login done through the web app, using JSON web token and storing it in cookie
+- **One line description:** Registration and Login. Using JSON web token and storing it in cookie
 - **Video timestamp:** 1:55
 - **Relevant files:**
   - /server/routes/userRoute.js 6, 9

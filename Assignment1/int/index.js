@@ -10,7 +10,7 @@ const app = express()
 
 app.use(
     cors({
-        origin: "http://ec2-3-106-139-108.ap-southeast-2.compute.amazonaws.com:3000", // Replace 'localhost:3000' with your EC2 frontend URL
+        origin: "http://ec2-3-106-242-132.ap-southeast-2.compute.amazonaws.com:3000", // Replace 'localhost:3000' with your EC2 frontend URL
         methods: ["GET", "PUT", "POST", "DELETE"],
         credentials: true,
     })
